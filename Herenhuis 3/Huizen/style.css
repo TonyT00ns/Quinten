@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+body
+{
+	background: url( ../img/Achel-Hoeve-001-1200x600.jpg) no-repeat center center fixed;
+	background-blend-mode: darken;
+	background-color: #5F5D5D;
+	background-size: cover;
+}
+
+article
+{
+	float: left;
+	margin-left: 100px;
+	
+}

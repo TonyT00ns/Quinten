@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Opdracht 2 - PHP - Formulier</title>
+	</head>
+	
+	<style> 
+	
+		body
+		{
+			background-color: #333;
+		}
+		
+		h1,p,label
+		{
+			color: white;
+		}
+		
+		main
+		{
+			max-width: 150px;
+			margin: 0 auto;
+		}
+	
+	</style>
+
+	<body>
+		
+		<main>
+		
+			<h1> Bands </h1>
+
+			<form method="POST" action="band_toevoeg_verwerk.php">
+
+				<label> Bandnaam: </label> <br><br>
+				<input name="Bandnaam" required> <br> <br>
+
+				<label> Land van herkomst: </label> <br><br>
+				<input maxlength="30" name="Landvanherkomst">  <br> <br>
+
+				<label> Aantal leden: </label> <br><br>
+				<input type="number" name="Aantalleden">  <br> <br>
+
+				<label> Soort muziek: </label> <br><br>
+				<input name="Soortmuziek"> <br> <br>
+				
+				<label> Algemene informatie </label> <br><br>
+				<input placeholder="Hier je info..." name="Algemeneinformatie" type="text"> <br> <br>
+
+				<input name="submit" type="submit" value="Verzenden">
+
+			</form>
+			
+		</main>
+		
+	</body>
+</html>

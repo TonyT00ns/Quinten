@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* CSS Document */
+body
+{
+	background: url(../img/lateral_large.jpg) no-repeat center center fixed;
+	background-blend-mode: darken;
+	background-color: #2c71a7;
+	background-size: cover;
+}

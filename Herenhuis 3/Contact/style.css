@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* CSS Document */
+body
+{
+	background: url(../img/night01_View01b.jpg) no-repeat center center fixed;
+	background-blend-mode: darken;
+	background-color: #272525;
+	background-size: cover;
+}
